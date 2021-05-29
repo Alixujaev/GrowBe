@@ -1,0 +1,829 @@
+@media(max-width: 1300px){
+    .header__content::after{
+        left: -3%;
+        z-index: -1;
+    }
+
+    .header__content_img{
+        width: 50%;
+        right: 0;
+    } 
+    .seo__check_img{
+        right: 0;
+    }
+    .slides{
+        max-width: 1300px;
+        width: 100%; 
+        margin: 0 auto;
+        overflow-x: hidden;
+    }
+}
+
+@media(max-width: 1170px){
+    .header__nav{
+        margin: 0 10px 50px;
+    }
+    .header__content,
+    .header__boxes{
+        margin: 0 10px;
+    }
+    .perfect__solution_container{
+        padding: 0 10px;
+    }
+
+    .perfect__card{
+        margin-bottom: 30px;
+    }
+    .seo__content_img{
+        width: 60%;
+        margin-left: -8%;
+    }
+    .seo__numbers{
+        margin: 0 10px 100px;
+    }
+    .seo__check{
+        margin: 0 15px;
+    }
+    
+    .plan__part_cards{
+        justify-content: space-evenly;
+    }
+
+    .plan__team_box{
+        margin: 0 auto;
+    }
+    .plan__part_card{
+        margin-bottom: 30px;
+    }
+    .slide__all_card{
+        width: 90%;
+    }
+    .slide__all_card{
+        width: 60%;
+        padding: 5px;
+        justify-content: space-between;
+    }
+    .slide__all_card_img{
+        width: 40%;
+    }
+}
+
+@media(max-width: 1050px){
+    .header__content_title{
+        font-size: 51px;
+    }
+    .header__content_txt{
+        font-size: 18px;
+    }
+    .header__box-img{
+        width: 90%;
+    }
+    .perfect__solution_container{
+        justify-content: space-evenly;
+    }
+    .perfect__solution_desc{
+        width: 46%;
+    }
+    .perfect__solution_img{
+        width: 50%;
+    }
+    .seo__content_h2{
+        font-size: 40px;
+        line-height: 43px;
+    }
+    .seo__content_img{
+        margin-top: 4%;
+    }
+    .seo__content_icon{
+        padding: 25px 28px;
+    }
+    .seo__marketing_desc{
+        width: 79%;
+    }
+
+    .seo__marketing_txt{
+        font-size: 14px;
+    }
+    .seo__number{
+        font-size: 55px;
+    }
+    .seo__check_title{
+        font-size: 42px;
+    }
+    .seo__check_txt{
+        font-size: 15px;
+        margin-bottom: 45px;
+    }
+    .plan__team_grid{
+        grid-template-columns: repeat(2, 2fr);
+        grid-template-areas:
+        'h1 h2' 
+        'h3 h4';
+    }
+}
+
+@media(max-width: 960px){
+    .header__content_desc{
+        width: 51%;
+    }
+    .header__content_title{
+        font-size: 44px;
+        line-height: 60px;
+    }
+    .header__content_txt{
+        font-size: 16px;
+        width: 90%;
+    }
+    .perfect__solution_title{
+        font-size: 40px;
+        line-height: 44px;
+        margin-bottom: 10px;
+    }
+    .perfect__solution_txt{
+        font-size: 15px;
+    }
+    .perfect__boxes{
+        padding: 60px;
+    }
+    .perfect__cards_h2{
+        font-size: 40px;
+        line-height: 44px;
+        margin-bottom: 10px;
+    }
+    .perfect__cards_txt{
+        font-size: 15px;
+    }
+    .seo__content_h2{
+        font-size: 36px;
+        line-height: 37px;
+    }
+    .seo__content_txt{
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .seo__content_marketing{
+        padding: 17px 5px;
+    }
+    .seo__check{
+        display: inline;
+    }
+    .seo__check_desc{
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .seo__check_txt{
+        margin: 35px auto;
+    }
+    .seo__check_img{
+        position: static;
+        display: flex;
+        margin: 0 auto;
+        width: 70%;
+    }
+    .plan__part_f{
+        padding: 70px 0;
+    }
+    .plan__part_title{
+        font-size: 40px;
+    }
+    .plan__part_txt{
+        font-size: 15px;
+    }
+    .plan__part_card{
+        width: 35%;
+        padding: 50px 0;
+    }
+    .plan__part_card_h4{
+        font-size: 21px;
+    }
+    .span__dollar{
+        font-size: 60px;
+    }
+    .dollar__icon{
+        left: 23%;
+    }
+    .plan__part_card_txt{
+        font-size: 15px;
+    }
+    .plan__part_card_btn {
+        padding: 12px 55px;
+    }
+    .slide__main_card{
+        width: 55%;
+        padding: 10px;
+    }
+    .perfect__cards_txt{
+        margin-bottom: 20px;
+    }
+    .slide__card_job{
+        margin-bottom: 0;
+    }
+    .footer__last{
+        margin-bottom: 0;
+    }
+}
+
+@media(max-width:860px){
+    .header__content::after{
+        top: -4%;
+    }
+    .header__content_desc{
+        margin-top: 0;
+    }
+    .features__link{
+        font-size: 13px;
+        padding: 7px 0;
+    }
+    .header__list{
+        width: 73%;
+    }
+    .header__content::before{
+        top: 3%;
+        left: 46%;
+    }
+
+    .perfect__box{
+        padding: 30px 10px;
+    }
+    .seo__content{
+        display: inline;
+    }
+    .seo__content_img{
+        margin: 0 auto;
+        display: flex;
+        margin-top: 4%;
+        width: 65%;
+    }
+    .seo__content_desc{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .seo__content_marketing{
+        display: inline;
+    }
+    .seo__marketing_desc{
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .seo__content_icon{
+        margin-bottom: 20px;
+    }
+    .seo__content_marketing:hover{
+        box-shadow: none;
+    }
+    .dollar__icon{
+        left: 17%;
+    }
+    .slide__all_h4{
+        font-size: 20px;
+    }
+    .slide__all_icon{
+        font-size: 13px;
+    }
+    .slide__all_icons_txt,
+    .slide__all_txt{
+        font-size: 14px;
+    }
+    .footer__container{
+        display: inline;
+    }
+    .footer__desc{
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .footer__last{
+        margin-bottom: 0 !important;
+    }
+}
+@media(max-width:778px){
+    .header__nav_btn{
+        padding: 10px 20px;
+    }
+    .header__content_desc::after,
+    .header__content::after,
+    .header__content::before{
+        display: none;
+    }
+    .header__content_title{
+        font-size: 35px;
+        line-height: 44px;
+    }
+    .header__content_txt{
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .header__video-txt,
+    .header__video-icon{
+        font-size: 13px;
+    }
+    .header__content_links{
+        width: 70%;
+    }
+    .header__content_video{
+        width: 114px;
+        justify-content: space-between;
+    }
+    .header__boxes{
+        padding: 60px 0;
+    }
+    .header__box-img{
+        width: 83%;
+    }
+    .perfect__solution_title{
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .perfect__solution_txt{
+        font-size: 13px;
+    }
+    .perfect__solution_container{
+        padding: 20px 10px;
+    }
+    .perfect__boxes{
+        padding: 30px 10px;
+    }
+    .perfect__box_icon{
+        width: 60px;
+        height: 60px;
+        margin-bottom: 15px;
+    }
+    .perfect__box_h3{
+        font-size: 20px;
+    }
+    .perfect__box_txt{
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+    .perfect__choose{
+        padding: 35px 0;
+    }
+    .perfect__cards_h2{
+        font-size: 35px;
+    }
+    .perfect__cards_txt{
+        font-size: 14px;
+        margin-bottom: 35px;
+    }
+    .perfect__card{
+        width: 42%;
+    }
+    .perfect__card_img{
+        width: 100%;
+    }
+    .perfect__card_h3{
+        font-size: 21px;
+        margin-bottom: 10px;
+    }
+    .perfect__card_text{
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+    .perfect__card_btn{
+        margin-bottom: 30px;
+    }
+    .seo__check_title{
+        font-size: 35px;
+    }
+    .seo__check_txt{
+        margin: 20px auto;
+    }
+    .dollar__icon{
+        left: 12%;
+    }
+    .slide__card_txt,
+    .slide__main_card::after,
+    .slide__all_txt{
+        display: none;
+    }
+    .slide__opacity_link{
+        display: inherit;
+        margin-bottom: 20px;
+        color: coral;
+    }
+    .slide__card_job{
+        margin-bottom: 5px !important;
+    }
+    .slide__all_card_desc{
+        width: 57%;
+    }
+    .slide__all_icons_txt{
+        font-size: 12px;
+    }
+}
+@media(max-width:688px){
+     .header__link{
+        font-size: 16px;
+    }
+     .header__list{
+        width: 10%;
+    } 
+    .header__item{
+        display: none;
+    }
+    .header__burger_all{
+        transform: scale(1);
+    }
+    .header__burger_part{
+        z-index: 99;
+    }
+
+    .header__content{
+        display: inline;
+    }
+    .header__content_img{
+        position: static;
+        display: flex;
+        margin: 0 auto;
+    }
+    .header__content_txt{
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .header__content_desc{
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .header__content_links{
+        margin: 0 auto;
+    }
+    .header__content_img{
+        width: 60%;
+    }
+    .perfect__solution_title,
+    .perfect__cards_h2,
+    .seo__content_h2,
+    .seo__check_title,
+    .plan__part_title{
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .perfect__solution_txt,
+    .plan__part_txt,
+    .perfect__cards_txt{
+        font-size: 12px;
+        margin-bottom: 25px;
+    }
+    .perfect__cards_txt{
+        width: 85%;
+    }
+    .perfect__card_text {
+        padding: 0 10px;
+    }
+    .seo__content_txt,
+    .seo__check_txt{
+        font-size: 13px;
+    }
+    .seo__content_icon{
+        font-size: 22px;
+        padding: 20px 23px;
+    }
+    .seo__numbers{
+        padding: 30px;
+        margin: 0 10px 50px;
+    }
+    .seo__number{
+        font-size: 50px;
+    }
+    .seo__numbers_txt{
+        font-size: 16px;
+    }
+    .seo__block{
+        width: 80%;
+    }
+    .seo__input{
+        font-size: 10px;
+        padding: 14px 18px;
+    }
+    .seo__input_btn{
+        font-size: 12px;
+    }
+    .plan__part_f,
+    .plan__team{
+        padding: 40px 0;
+    }
+    .plan__part_card{
+        padding: 25px 0;
+    }
+    .plan__part_card_h4{
+        font-size: 19px;
+    }
+    .plan__part_card_number{
+        font-size: 13px;
+    }
+    .span__dollar{
+        font-size: 45px;
+    }
+    .dollar__icon {
+        left: 15%;
+    }
+    .plan__part_card_txt{
+        font-size: 13px;
+    }
+    .plan__part_card_btn{
+        padding: 10px 35px;
+        font-size: 12px;
+    }
+    .plan__team_img{
+        width: 100px;
+        height: 100px;
+    }
+    .plan__team_box{
+        width: 70%;
+    }
+    .footer__desc{
+        justify-content: space-evenly;
+    }
+    .slide__all_h4 {
+        font-size: 16px;
+    }
+    .slide__all_likes{
+        display: inline;
+    }
+    .slide__all_icons{
+        margin-bottom: 10px;
+    }
+}
+@media(max-width:590px){
+    .header__nav{
+        margin: 0 10px 30px;
+    }
+    .header__content_title{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .perfect__solution_title{
+        margin-bottom: 30px;
+    }
+    .perfect__solution_title,
+    .perfect__cards_h2,
+    .seo__content_h2,
+    .seo__check_title,
+    .plan__part_title{
+        font-size: 25px;
+    }
+    .perfect__solution_txt{
+        display: none;
+    }
+    .perfect__boxes{
+        display: inline;
+    }
+    .perfect__box{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .perfect__box_icon{
+        margin: 0 auto;
+        margin-bottom: 5px;
+    }
+    .perfect__box_h3{
+        margin-bottom: 5px;
+    }
+    .seo__numbers{
+        padding: 10px;
+    }
+    .seo__numbers_part1{
+        width: 20%;
+    }
+    .seo__number{
+        font-size: 40px;
+    }
+    .seo__numbers_txt{
+        font-size: 14px;
+    }
+    .header__video1{
+        width: 80%; 
+    }
+    .dollar__icon{
+        left: 12%;
+    }
+}
+@media(max-width:490px){
+    .perfect__solution_container{
+        display: inline;
+    }
+    .perfect__solution_desc{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .perfect__solution_img{
+        margin: 0 auto;
+        display: flex;
+        width: 75%;
+    }
+    .perfect__cards{
+        display: inline;
+    }
+    .perfect__card{
+        margin: 0 auto;
+        margin-bottom: 30px;
+        width: 60%;
+    }
+    .plan__part_cards{
+        display: inline;
+    }
+    .plan__part_card{
+        margin: 0 auto;
+        margin-bottom: 30px;
+        width: 50%;
+    }
+    .seo__block{
+        margin: 0 auto;
+    }
+    .perfect__solution_title, .perfect__cards_h2, .seo__content_h2, .seo__check_title, .plan__part_title{
+        font-size: 22px;
+        margin: 10px;
+    }
+    .perfect__solution_title{
+        margin: 0;
+    }
+    .seo__marketing_h4{
+        font-size: 16px;
+    }
+    .seo__marketing_txt{
+        font-size: 12px;
+    }
+    .seo__numbers_part1{
+        width: 22%;
+    }
+    .seo__marketing_desc{
+        width: 60%;
+    }
+    .seo__number{
+        font-size: 35px;
+    }
+    .seo__numbers_txt{
+        font-size: 12px;
+    }
+    .seo__numbers_part2{
+        width: 10px;
+        height: 10px;
+    }
+    .plan__team_grid{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas:
+            'h1'
+            'h2'
+            'h3'
+            'h4';
+    }
+    .slide__all_likes{
+        display: none;
+    }
+    .slide__all_card_desc{
+        text-align: center;
+    }
+    .slide__all_card_img{
+        width: 53%;
+    }
+    .slide__card_img{
+        width: 50px;
+        height: 50px;
+    }
+    .slide__opacity_link{
+        font-size: 14px;
+    }
+    .slayd__clicks{
+        bottom: -20%;
+    }
+    .slide__all_h4{
+        font-size: 14px;
+    }
+}
+@media(max-width:438px){
+    .header__link{
+        font-size: 14px;
+    }
+    .header__content_span{
+        padding: 0;
+        border: none;
+    }
+    .header__content_title,
+    .perfect__solution_title,
+    .perfect__cards_h2,
+    .seo__content_h2,
+    .seo__check_title,
+    .plan__part_title,
+    .perfect__cards_h2{
+        font-size: 23px;
+        line-height: 28px;
+        margin-bottom: 10px;
+    }
+    .header__content_txt{
+        font-size: 12px;
+        width: 96%;
+        line-height: 19px;
+    }
+    .header__nav_btn{
+        font-size: 11px;
+        padding: -8px 10px;
+    }
+    .header__content_video{
+        width: 85px;
+    }
+    .header__video-txt, .header__video-icon{
+        font-size: 9px;
+    }
+    .header__video-icon{
+        padding: 5px 6px;
+    }
+    .header__box-img{
+        width: 90%;
+    }
+    .header__boxes{
+        padding: 30px 0;
+    }
+    .perfect__box_h3,
+    .perfect__card_h3{
+        font-size: 18px;
+    }
+    .perfect__box_txt,
+    .perfect__cards_txt,
+    .perfect__card_text,
+    .seo__content_txt,
+    .seo__check_txt,
+    .perfect__cards_txt{
+        font-size: 12px;
+        width: 96%;
+        line-height: 19px;
+        margin-bottom: 10px;
+    }
+    .seo__content_img{
+        width: 70%;
+    }
+    .seo__number{
+        font-size: 30px;
+    }
+    .seo__numbers_txt{
+        font-size: 10px;
+    }
+    .seo__numbers{
+        margin: 0 10px;
+    }
+    .seo__check_txt{
+        margin: 10px auto;
+    }
+    .seo__input{
+        font-size: 9px;
+        padding: 11px 10px;
+    }
+    .duble__input{
+        width: 74%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .seo__block{
+        display: block;
+        width: 80%;
+    }
+    .seo__check_img{
+        width: 80%;
+    }
+    .plan__part_card{
+        width: 55%;
+    }
+    .slide__card_img{
+        width: 40px;
+        height: 40px;
+    }
+    .slide__name{
+        font-size: 14px;
+        margin-bottom: 2px;
+    }
+    .slide__all_h4{
+        font-size: 12px;
+    }
+    .footer__desc{
+        display: inline;
+    }
+    .footer__desc_box{
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .footer__box_link::after{
+        left: 25%;
+    }
+    .footer__icons{
+        margin: 0 auto;
+    }
+}
+@media(max-width:363px){
+    .header__content_desc,
+    .header__content_img,
+    .perfect__solution_desc{
+        width: 80%;
+    }
+    .seo__number{
+        font-size: 25px;
+    }
+    .seo__numbers_txt{
+        font-size: 9px;
+    }
+    .seo__numbers_part2{
+        width: 8px;
+        height: 8px;
+    }
+}
